@@ -1,227 +1,243 @@
 <!DOCTYPE html>
 <html lang="pl">
-    <head>
-        <meta charset="utf-8">
-		<meta name="description" content="Portfolio C++, Arduino. I invite you to browse the page.">
-		<meta name="keywords" content="C++,ARDUINO,PORTFOLIO,PROJECTS">
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="stylebuttoncv.css">
-        <link rel="shortcut icon" href="image/shortcut.png">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    </head>
-    <body>
 
-        <nav>
-            <div class="navImg"></div>
-            <ul class="menuGrid">
-                <li class="bHome">HOME</li>
-				<li class="bAbout">About Me</li>
-                <li class="bProjects">Projects</li>
-                <li class="bCV">Curriculum Vitae</li>
-                <li class="bContact">Contact</li>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Portfolio C++, Arduino. I invite you to browse the page.">
+    <meta name="keywords" content="C++,ARDUINO,PORTFOLIO,PROJECTS">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylebuttoncv.css">
+    <link rel="shortcut icon" href="img/shortcut.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js" charset="utf-8"></script>
+</head>
 
-            </ul>
-            <footer>All rights reserved &copy; 2019 <br /> Thank You for visit!</footer>
-        </nav>
-        <div class="contentFrame">
-            <div class="contentDisplayed contentHome">
+<body>
 
+    <nav>
+        <div class="navImg"></div>
+        <ul class="menuGrid">
+            <li class="bHome">HOME</li>
+            <li class="bAbout">O mnie</li>
+            <li class="bProjects">Projekty</li>
+            <li class="bCV">Curriculum Vitae</li>
+            <li class="bContact">Kontakt</li>
 
-
-      <img src="image/home.jpeg" width="450px" height="290px"alt="pragramming"/>
-<div class="ramka">
-			<p class="text2">My name is Jacob</p>
-			<p class="text">I make C++ applications and programming microcontrollers in Arduino.</p>
-			<p class="text">Sometimes, it happens that I connect these two languages ​​to make an application that supports hardware.</p>
-			<p class="text">You can check the menu items if you are interested in what I am currently doing or if you want to contact me.</p>
-</div>
+        </ul>
+        <footer>Wszelkie prawa zastrzeżone &copy; 2020 <br /></footer>
+    </nav>
+    <div class="contentFrame">
+        <div class="contentDisplayed contentHome">
 
 
+
+            <img src="img/home.jpeg" width="450px" height="290px" alt="pragramming" />
+            <div class="ramka">
+                <p class="text2">My name is Jacob</p>
+                <p class="text">I make C++ applications and programming microcontrollers in Arduino.</p>
+                <p class="text">Sometimes, it happens that I connect these two languages ​​to make an application that
+                    supports hardware.</p>
+                <p class="text">You can check the menu items if you are interested in what I am currently doing or if
+                    you want to contact me.</p>
             </div>
-            <div class="contentHidden contentProjects">
-				<h1>Library of my projects</h1>
-                <article class="project">
-                    <div class="projectHeader">
-                        <div class="projectTitle">
-                            GAME GALUKAS
-                        </div>
-                        <div class="projectInfoA">
-                            <div class="projectInfoName">
-                                Created
-                            </div>
-                            <div class="projectInfoDate">
-                                <span class="projectInfoDate_day">21</span> - <span class="projectInfoDate_day">03</span> - <span class="projectInfoDate_year">2016</span>
-                            </div>
-                        </div>
-                        <div class="projectInfoB">
-                            <div class="projectInfoName">
-                                Last update
-                            </div>
-                            <div class="projectInfoDate">
-                                <span class="projectInfoDate_day">12</span> - <span class="projectInfoDate_day">09</span> - <span class="projectInfoDate_year">2018</span>
-                            </div>
-                        </div>
-                        
-						<div class="projectDownload"><a href="/projects/galukas_game.exe"></a></div>
-                    
-                    </div>
-                    <div class="projectDescriptionBox">
-                        <div class="projectDescription">
-                            <div class="projectImg">
-                                <img src="image/game.png" alt="GALUKAS">
-                            </div>
-                            <div class="projectVersions">
-								<div class="projectVNumber">
-                                    v1.2
-                                </div>
-                                <div class="projectVDescription">
-                                    <ul>
-                                        <li>większa liczba przeciwników</li>
-                                        <li>przeciwnicy aktywni (atakujący)</li>
-                                        <li>kolejne usprawnienia renderu</li>
-                                        <li>dodanie muzyki, efekty dźwiękowe</li>
-                                    </ul>
-                                </div>
-                                <div class="projectVNumber">
-                                    v1.1
-                                </div>
-                                <div class="projectVDescription">
-                                    <ul>
-                                        <li>wyświetlanie wyników (ilość trafień) w postaci tekstu na ekranie</li>
-                                        <li>stopniowe uszkadzanie statku (pasek wskazujący ilość obrażeń)</li>
-                                        <li>poprawiony render</li>
-                                    </ul>
-                                </div>
-                                <div class="projectVNumber">
-                                    v1.0
-                                </div>
-                                <div class="projectVDescription">
-                                    <ul>
-                                        <li>możliwość ruchu w pionie</li>
-                                        <li>teksturowane obiekty (statek, pociski, przeciwnicy)</li>
-                                        <li>gra toczy się nad jakimś terenem!</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="projectDetailsButton">
-                        HIDE DETAILS
-                    </div>
-
-			 <div class="projectHeader">
-                        <div class="projectTitle">
-                            NOTEPAD
-                        </div>
-                        <div class="projectInfoA">
-                            <div class="projectInfoName">
-                                Created
-                            </div>
-                            <div class="projectInfoDate">
-                                <span class="projectInfoDate_day">21</span> - <span class="projectInfoDate_day">03</span> - <span class="projectInfoDate_year">2016</span>
-                            </div>
-                        </div>
-                        <div class="projectInfoB">
-                            <div class="projectInfoName">
-                                Last update
-                            </div>
-                            <div class="projectInfoDate">
-                                <span class="projectInfoDate_day">12</span> - <span class="projectInfoDate_day">09</span> - <span class="projectInfoDate_year">2018</span>
-                            </div>
-                        </div>
-                        <div class="projectDownload"><a href="/projects/notepad.exe"></a></a></div>
-                    </div>
-                    <div class="projectDescriptionBox">
-                        <div class="projectDescription">
-                            <div class="projectImg">
-                               <img src="image/notepad.png" alt="notepad">
-                            </div>
-                            <div class="projectVersions">
-                                <div class="projectVNumber">
-                                    v1.1
-                                </div>
-                                <div class="projectVDescription">
-                                    <ul>
-                                        <li>Obsługa znaków ś,ć,ż (z wymaganym użyciem alt)</li>
-                                        <li>Przy zakończeniu programu użytkownik jest informowany czy zapisać plik (YES, NO, CANCEL)</li>
-                                        <li>Przy tworzeniu "nowego dokumentu/zamykaniu programu" użytkownikowi nie jest wyświetlany alert jeśli obszar tekstowy jest PUSTY</li>
-                                        <li>Dodanie skrótów klawiszowych t.j:</li>
-                                        <li>ctrl+a - zaznacz wszystko</li>
-                                        <li>ctrl+e - zamknij program</li>
-                                    </ul>
-                                </div>
-                                <div class="projectVNumber">
-                                    v1.0
-                                </div>
-                                <div class="projectVDescription">
-                                    <ul>
-                                        <li>Program "Notatnik Galukas" o funkcjach podstawowych bez rozszerzania templatki buildera.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="projectDetailsButton">
-                        HIDE DETAILS
-                    </div>
-
-                </article>
 
 
-
-            </div>
-            <div class="contentHidden contentCV">
-				<img src="image/CV.png" width="450px" height="290px"alt="CV"/></br>
-                If you want to see my CV, click the button below.<br/>
-				<a href="CV.pdf"><button class="btn"><i class="fa fa-download"></i> Download</button></a>
-            </div>
-            <div class="contentHidden contentContact">
-                <h1>Conact me here :)</h1>
-                <form id="formularzKontaktowy" class="form-horizontal" action="mail.php" method="post" autocomplete="off">
-
-
-                      <input type="email" name="email" class="input-xlarge" id="inputEmail" placeholder="Email" required>
-
-                      <input type="text" name="subject" class="input-xlarge" id="inputSubject" placeholder="Title" required>
-
-                      <textarea type="text" name="message" class="input-xlarge" id="inputMessage" placeholder="Write me a message" rows="6" required></textarea>
-
-                      <button type="submit" class="btn btn-primary">SEND</button>
-
-
-                </form>
-
-            </div>
-            <div class="contentHidden contentAboutMe">
-FAQ<br /><br />
-If you clicked this tab, you're probably interested in me. I program in C++, Arduino. In addition, I learn the PHP 7.3 and JavaScript language that I used to build this site. I do not mention html5 + css3 because every computer worker can write in these languages.<br /><br />
-
-<ul class="accordion">
-    <li class="accordion-item is-active">
-        <h3 class="accordion-thumb">1. Do I have any other activities than programming?</h3>
-        <p class="accordion-panel">
-            Yes of course. In my free time I like to jog, swim or go to the gym.
-        </p>
-    </li>
-
-    <li class="accordion-item">
-        <h3 class="accordion-thumb">2. Do I write programs for people?</h3>
-        <p class="accordion-panel">
-            Yes, but only in c ++ and arduino. In other languages ​​I have too little experience to do something solid.
-        </p>
-    </li>
-
-    <li class="accordion-item">
-        <h3 class="accordion-thumb">3. In the projects tab, I see only CPP projects. What about Arduino?</h3>
-        <p class="accordion-panel">
-            I am currently learning CMS (Content Management System). When I embrace this, I will also add Arduino projects on a
-            regular time.
-        </p>
-    </li>
-</ul>
-            </div>
         </div>
-        <script src="script.js" charset="utf-8"></script>
-    </body>
+        <div class="contentHidden contentProjects">
+            <article class="project">
+                <div class="projectHeader">
+                    <div class="projectTitle">
+                        GAME GALUKAS
+                    </div>
+                    <div class="projectInfoA">
+                        <div class="projectInfoName">
+                            Utworzony
+                        </div>
+                        <div class="projectInfoDate">
+                            <span class="projectInfoDate_day">21</span> - <span class="projectInfoDate_day">03</span> -
+                            <span class="projectInfoDate_year">2016</span>
+                        </div>
+                    </div>
+                    <div class="projectInfoB">
+                        <div class="projectInfoName">
+                            Ostatnia aktualizacja
+                        </div>
+                        <div class="projectInfoDate">
+                            <span class="projectInfoDate_day">12</span> - <span class="projectInfoDate_day">09</span> -
+                            <span class="projectInfoDate_year">2018</span>
+                        </div>
+                    </div>
+
+                    <div class="projectDownload"><a href="/projects/galukas_game.exe"></a></div>
+
+                </div>
+                <div class="projectDescriptionBox">
+                    <div class="projectDescription">
+                        <div class="projectImg">
+                            <img src="img/game.png" alt="GALUKAS">
+                        </div>
+                        <div class="projectVersions">
+                            <div class="projectVNumber">
+                                v1.2
+                            </div>
+                            <div class="projectVDescription">
+                                <ul>
+                                    <li>większa liczba przeciwników</li>
+                                    <li>przeciwnicy aktywni (atakujący)</li>
+                                    <li>kolejne usprawnienia renderu</li>
+                                    <li>dodanie muzyki, efekty dźwiękowe</li>
+                                </ul>
+                            </div>
+                            <div class="projectVNumber">
+                                v1.1
+                            </div>
+                            <div class="projectVDescription">
+                                <ul>
+                                    <li>wyświetlanie wyników (ilość trafień) w postaci tekstu na ekranie</li>
+                                    <li>stopniowe uszkadzanie statku (pasek wskazujący ilość obrażeń)</li>
+                                    <li>poprawiony render</li>
+                                </ul>
+                            </div>
+                            <div class="projectVNumber">
+                                v1.0
+                            </div>
+                            <div class="projectVDescription">
+                                <ul>
+                                    <li>możliwość ruchu w pionie</li>
+                                    <li>teksturowane obiekty (statek, pociski, przeciwnicy)</li>
+                                    <li>gra toczy się nad jakimś terenem!</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projectDetailsButton">
+                    Pokaż mniej
+                </div>
+
+                <div class="projectHeader">
+                    <div class="projectTitle">
+                        NOTEPAD
+                    </div>
+                    <div class="projectInfoA">
+                        <div class="projectInfoName">
+                            Utworzony
+                        </div>
+                        <div class="projectInfoDate">
+                            <span class="projectInfoDate_day">21</span> - <span class="projectInfoDate_day">03</span> -
+                            <span class="projectInfoDate_year">2016</span>
+                        </div>
+                    </div>
+                    <div class="projectInfoB">
+                        <div class="projectInfoName">
+                            Ostatnia aktualizacja
+                        </div>
+                        <div class="projectInfoDate">
+                            <span class="projectInfoDate_day">12</span> - <span class="projectInfoDate_day">09</span> -
+                            <span class="projectInfoDate_year">2018</span>
+                        </div>
+                    </div>
+                    <div class="projectDownload"><a href="/projects/notepad.exe"></a></a></div>
+                </div>
+                <div class="projectDescriptionBox">
+                    <div class="projectDescription">
+                        <div class="projectImg">
+                            <img src="img/notepad.png" alt="notepad">
+                        </div>
+                        <div class="projectVersions">
+                            <div class="projectVNumber">
+                                v1.1
+                            </div>
+                            <div class="projectVDescription">
+                                <ul>
+                                    <li>Obsługa znaków ś,ć,ż (z wymaganym użyciem alt)</li>
+                                    <li>Przy zakończeniu programu użytkownik jest informowany czy zapisać plik (YES, NO,
+                                        CANCEL)</li>
+                                    <li>Przy tworzeniu "nowego dokumentu/zamykaniu programu" użytkownikowi nie jest
+                                        wyświetlany alert jeśli obszar tekstowy jest PUSTY</li>
+                                    <li>Dodanie skrótów klawiszowych t.j:</li>
+                                    <li>ctrl+a - zaznacz wszystko</li>
+                                    <li>ctrl+e - zamknij program</li>
+                                </ul>
+                            </div>
+                            <div class="projectVNumber">
+                                v1.0
+                            </div>
+                            <div class="projectVDescription">
+                                <ul>
+                                    <li>Program "Notatnik Galukas" o funkcjach podstawowych bez rozszerzania templatki
+                                        buildera.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projectDetailsButton">
+                    Pokaż mniej
+                </div>
+
+            </article>
+
+
+
+        </div>
+        <div class="contentHidden contentCV">
+            <img src="img/CV.png" width="450px" height="290px" alt="CV" /></br>
+            <a href="CV_Jakub_Gałek.pdf"><button class="btn"><i class="fa fa-download"></i> Zobacz CV</button></a>
+        </div>
+        <div class="contentHidden contentContact">
+            <h1>Formularz kontaktowy</h1>
+            <form id="formularzKontaktowy" class="form-horizontal" action="mail.php" method="post" autocomplete="off">
+
+
+                <input type="email" name="email" class="input-xlarge" id="inputEmail" placeholder="Twój email" required>
+
+                <input type="text" name="subject" class="input-xlarge" id="inputSubject" placeholder="Tytuł" required>
+
+                <textarea type="text" name="message" class="input-xlarge" id="inputMessage"
+                    placeholder="w czym mogę Ci pomoć?" rows="6" required></textarea>
+
+                <button type="submit" class="btn btn-primary">Wyślij</button>
+
+
+            </form>
+
+        </div>
+        <div class="contentHidden contentAboutMe">
+            FAQ<br /><br />
+            If you clicked this tab, you're probably interested in me. I program in C++, Arduino. In addition, I learn
+            the PHP 7.3 and JavaScript language that I used to build this site. I do not mention html5 + css3 because
+            every computer worker can write in these languages.<br /><br />
+
+            <ul class="accordion">
+                <li class="accordion-item is-active">
+                    <h3 class="accordion-thumb">1. Do I have any other activities than programming?</h3>
+                    <p class="accordion-panel">
+                        Yes of course. In my free time I like to jog, swim or go to the gym.
+                    </p>
+                </li>
+
+                <li class="accordion-item">
+                    <h3 class="accordion-thumb">2. Do I write programs for people?</h3>
+                    <p class="accordion-panel">
+                        Yes, but only in c ++ and arduino. In other languages ​​I have too little experience to do
+                        something solid.
+                    </p>
+                </li>
+
+                <li class="accordion-item">
+                    <h3 class="accordion-thumb">3. In the projects tab, I see only CPP projects. What about Arduino?
+                    </h3>
+                    <p class="accordion-panel">
+                        I am currently learning CMS (Content Management System). When I embrace this, I will also add
+                        Arduino projects on a
+                        regular time.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
 </html>
